@@ -1,0 +1,30 @@
+# --- Fichiers d'environnement et de configuration sensibles ---
+.env
+.env.local
+.env.*.local
+config.local.php
+
+# --- Dépendances (PHP) ---
+/vendor/
+composer.phar
+
+# --- Fichiers système et éditeurs ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Logs et fichiers temporaires ---
+*.log
+/logs/
+/tmp/
+/cache/
+
+# --- Uploads / Fichiers générés par les utilisateurs ---
+/public/uploads/
+/storage/
